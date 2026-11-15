@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Content Security Policy (see docs/SECURITY.md). The build adds the SHA-256 hashes of its inline script and
+         font onload handler to script-src (vite.config.ts, cspHashes); the dev server drops this tag. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-jY6LHhvdWeAURSMKGPOBGZGRiybSxSzmLMuusbyOoW8=' 'sha256-rluAq/aJkAogy7UtTyFVQ8XCV5bvyM9mLoAvx8L0Bd4=' 'unsafe-hashes' 'sha256-MhtPZXr7+LpJUY5qtMutB+qWfQtMaPccfe7QXtCcEYc='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org https://gibs.earthdata.nasa.gov; connect-src 'self' https://power.larc.nasa.gov https://rest.isric.org https://gibs.earthdata.nasa.gov https://eonet.gsfc.nasa.gov https://api.open-meteo.com https://nominatim.openstreetmap.org; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Field Shift — a budget-aware crop-rotation planner that fuses NASA Earth observations with farmer history, soil maps and local costs." />
+    <meta name="theme-color" content="#f5f7f4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)" />
+    <script>try { var t = localStorage.getItem('fieldshift.theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) { /* storage unavailable: stay on system */ }</script>
+    <title>Field Shift — NASA-informed rotation planner</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛰️</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <!-- fonts load without blocking first paint (slow or offline networks fall back to system fonts) -->
+    <script type="module" crossorigin src="./assets/index-CRYZgd2j.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-ByBlkyf3.js">
+    <link rel="modulepreload" crossorigin href="./assets/recharts-HxfgbFmy.js">
+    <link rel="modulepreload" crossorigin href="./assets/motion-DEdF_fP5.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-Bshe1uCB.css">
+      <link rel="modulepreload" crossorigin href="./assets/countries-BlnfdhnC.js" />
+    <script>(function(){var a=null;try{a=localStorage.getItem('fieldshift:v1:active')}catch(e){}var m={"demo-bambey":"assets/bambey-COvnCG2u.js","demo-kostanay":"assets/kostanay-B4RcoLDP.js"};var f=m[a||'demo-bambey'];if(!f)return;var l=document.createElement('link');l.rel='modulepreload';l.crossOrigin='';l.href='./'+f;document.head.appendChild(l)})()</script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
